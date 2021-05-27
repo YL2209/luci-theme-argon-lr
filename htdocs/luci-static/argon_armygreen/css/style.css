@@ -541,8 +541,8 @@ li {
 .progress_bar>div>div {
     height: 100% !important;
     border-radius: 5px;
-    background: linear-gradient(65deg, #a2a287 0, #64ca58b8 100%);
-    box-shadow: 0px 0px 8px #58ca7e57;
+    background: linear-gradient(65deg, #f9ffff 0, #7fffffb8 100%);
+    box-shadow: 0px 0px 8px #9effff57;
 }
 
 /* fix multiple table */
@@ -1415,8 +1415,8 @@ hr {
 }
 
 .bg-primary {
-    background: linear-gradient(65deg, #a2a287 0, #64ca58b8 100%);
-    box-shadow: 0 3px 16px #58ca7e57;
+    background: linear-gradient(65deg, #f9ffff 0, #7fffffb8 100%);
+    box-shadow: 0 3px 16px #9effff57;
 }
 
 header,
@@ -1680,7 +1680,7 @@ div>.table>.tbody>.tr:nth-of-type(2n) {
 }
 
 .notice {
-    background: linear-gradient(65deg, #a2a287 0, #64ca58b8 100%) !important;
+    background: linear-gradient(65deg, #f9ffff 0, #7fffffb8 100%) !important;
     color: #fff !important;
 }
 
@@ -2179,15 +2179,15 @@ form.inline+form.inline,
 .cbi-input-reload,
 .cbi-button-reload {
     color: #fff !important;
-    background-color: #64ca58b8 !important;
-    border-color: #64ca58b8 !important;
+    background-color: #7fffffb8 !important;
+    border-color: #7fffffb8 !important;
 }
 
 .cbi-value-field .cbi-input-apply,
 .cbi-button-apply,
 .cbi-button-edit {
     color: #fff !important;
-    background: linear-gradient(65deg, #a2a287 0, #64ca58b8 100%);
+    background: linear-gradient(65deg, #f9ffff 0, #7fffffb8 100%);
 }
 
 
@@ -2392,11 +2392,11 @@ select+.cbi-button {
 }
 
 .cbi-dropdown[open]>ul.dropdown>li[selected] {
-    background: linear-gradient(65deg, #a2a287 0, #64ca58b8 100%);
+    background: linear-gradient(65deg, #f9ffff 0, #7fffffb8 100%);
 }
 
 .cbi-dropdown[open]>ul.dropdown>li.focus {
-    background: linear-gradient(90deg, #64ca58b8 0%, #a2a287 100%);
+    background: linear-gradient(90deg, #7fffffb8 0%, #f9ffff 100%);
 }
 
 .cbi-dropdown[open]>ul.dropdown>li:last-child {
@@ -2463,7 +2463,7 @@ select[multiple="multiple"] {
 .tabs>li:hover {
     cursor: pointer;
     margin-bottom: 0;
-    background: linear-gradient(65deg, #a2a287 0, #64ca58b8 100%);
+    background: linear-gradient(65deg, #f9ffff 0, #7fffffb8 100%);
 }
 
 .tabs>li[class~="active"]>a {
@@ -2488,7 +2488,7 @@ select[multiple="multiple"] {
 }
 
 .cbi-tabmenu>li[class~="cbi-tab"] {
-    background: linear-gradient(65deg, #a2a287 0, #64ca58b8 100%);
+    background: linear-gradient(65deg, #f9ffff 0, #7fffffb8 100%);
 }
 
 .cbi-tabmenu>li[class~="cbi-tab"]>a {
@@ -2787,7 +2787,7 @@ td>.ifacebadge {
 }
 
 .ifacebox .ifacebox-head.active {
-    background: linear-gradient(65deg, #a2a287 0, #64ca58b8 100%);
+    background: linear-gradient(65deg, #f9ffff 0, #7fffffb8 100%);
 }
 
 .ifacebox .ifacebox-body {
