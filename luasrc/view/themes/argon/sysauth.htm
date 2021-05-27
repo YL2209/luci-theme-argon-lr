@@ -89,10 +89,6 @@
 		local http = require "luci.sys"
 		local json = require "luci.jsonc"
 		local bg_url = media .. "/img/bg1.jpg"
-		local bing = http.httpget("https://img.vim-cn.com/85/2ba6b77aee3c1d73ec62de46847c560d8ed8e2.png")
-		if (bing and bing ~= '') then
-			local bingjson  = json.parse(bing)
-			bg_url = "https://img.vim-cn.com/85/2ba6b77aee3c1d73ec62de46847c560d8ed8e2.png" .. bingjson.images[1].url
 		end
 	%>
 		style="background-image:url(<%=bg_url%>)"
